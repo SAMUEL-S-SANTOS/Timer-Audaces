@@ -1,11 +1,36 @@
 *{
    padding: 0;
     margin: 0;
-    background-color: black;
 }
 
 h1 {
     font-family: "Calibri";
     color: white;
     font-size: 90px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('imagens/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Count {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+div {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
