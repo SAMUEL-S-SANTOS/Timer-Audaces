@@ -1,0 +1,11 @@
+*{
+   padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Calibri";
+    color: white;
+    font-size: 90px;
+}
