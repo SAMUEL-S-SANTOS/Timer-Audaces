@@ -24,6 +24,6 @@ var x = setInterval(function(){
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
     var myh1 = document.getElementById("Count");
-    myh1.innerHTML = `${days} dias ${hours}:${minutes}:${seconds}`;
+    myh1.innerHTML = `Faltam ${days} dias e ${hours}:${minutes}:${seconds} horas`;
 
 },1000);
